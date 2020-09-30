@@ -8,7 +8,7 @@ class Anagram
   def compare(array)
     array.find_all do |word_x|
       if word_x.split("").sort == self.word.split("").sort
-        word
+        word_x
     end
   end
   
