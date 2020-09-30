@@ -7,6 +7,7 @@ class Anagram
   
   def compare(array)
     array.find_all do |word_x|
+      if word_x
     end
   end
   
