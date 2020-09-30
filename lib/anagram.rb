@@ -6,8 +6,7 @@ class Anagram
   end
   
   def compare(array)
-    array.select do |word_x|
-      (@word.split("").sort) == (word_x.split("").sort)
+    array.find_all
     end
   end
   
