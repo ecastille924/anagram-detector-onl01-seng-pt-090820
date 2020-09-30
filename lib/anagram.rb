@@ -6,7 +6,7 @@ class Anagram
   end
   
   def compare(array)
-    array.find_all
+    array.find_all do 
     end
   end
   
