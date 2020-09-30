@@ -8,7 +8,6 @@ class Anagram
   def compare(array)
     array.select do |word|
       word.split("").sort == @word.split("").sort
-      end
     end
   end
   
